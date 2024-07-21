@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Monserrat', sans-serif;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+.btn {
+	border-radius: 8px;
+	padding: 10px 45px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: #fff;
+	background-color: #543cae;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+body {
+	background-color: #d3daf4;
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	gap: 30px;
+	width: fit-content;
+	border-radius: 30px;
+	background: #fff;
+	-webkit-box-shadow: -6px 9px 7px -3px rgba(0, 0, 0, 0.63);
+	-moz-box-shadow: -6px 9px 7px -3px rgba(0, 0, 0, 0.63);
+	box-shadow: -6px 9px 7px -3px rgba(0, 0, 0, 0.63);
+	text-wrap: wrap;
+	overflow: hidden;
+}
+
+.container p {
+	font-size: 14px;
+	letter-spacing: 0.3px;
+}
+
+.container a {
+	color: #333;
+	font-size: 13px;
+}
+
+.as-span {
+	font-size: 12px;
+}
+
+.sign {
+	padding: 70px 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 20px;
+	width: 300px;
+}
+
+form p {
+	margin-bottom: -10px;
+}
+
+.greeting {
+	background-color: #543cae;
+	background: linear-gradient(to right, #7f67d6, #543cae);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+	padding: 0 40px;
+	text-align: center;
+	border-radius: 150px 30px 30px 80px;
+}
+
+.elements-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 20px;
+}
+
+.elements-box h1 {
+	color: #fff;
+}
+
+.elements-box p {
+	color: #fff;
+}
+
+.up-button {
+	border: 1px solid #fff;
+	transition: all 0.3s ease;
+	background: transparent;
+}
+
+.up-button:hover {
+	scale: 0.9;
+}
+
+.email-input,
+.password-input {
+	background-color: #eee;
+	border: none;
+	padding: 10px 15px;
+	font-size: 13px;
+	outline: none;
+	border-radius: 5px;
+	letter-spacing: 0.3px;
+	width: 100%;
+}
+
+.icons {
+	display: flex;
+	gap: 10px;
+}
+
+.icon {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.in-button {
+	transition: all 0.3s ease;
+}
+
+.in-button:hover {
+	color: #543cae;
+	background-color: #ccc;
+	border: 1px solid #543cae;
+	scale: 0.9;
+}
